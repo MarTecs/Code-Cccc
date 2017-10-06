@@ -7,7 +7,6 @@ main() {
 	printf("\tÉãÊÏ¶È\t»ªÉãÊÏÎÂ¶È\n");
 	float falur, celsius;
 	float upper, lower, step;
-	
 	lower = 0;
 	upper = 300;
 	step = 20;
