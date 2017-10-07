@@ -21,6 +21,7 @@ main() {
 	/*
 		方法二：简化方法一的代码 
 	*/
+	//这里声明变量d的时候，必须让它达到足以存放getchar函数返回的任何值 
 	int d;
 	while ( (d = getchar()) != EOF ) {
 		putchar(d);
