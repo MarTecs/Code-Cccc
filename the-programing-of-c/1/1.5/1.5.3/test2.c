@@ -4,20 +4,14 @@
 */
 main() {
 	char ch = 0;
-	
 	while( (ch = getchar()) != EOF ) {
-		if(ch = '\t')
-			printf("%c",ch);
-//			ch = '\\t';
-		if(ch = '\b')
-			printf("%c",ch);	
-//			ch = '\\b';
-		if(ch = '\\')
-			printf("%c",ch);
-//			ch = '\\\\';
-		printf('%c',ch);
-	}
-	
-	
-	
+		if(ch == '\t')
+			printf("\\t");
+		else if(ch == '\b')
+			printf("\\b");
+		else if(ch == '\\')
+			printf("\\\\");
+		else 
+			putchar(ch);
+	}			
 } 
