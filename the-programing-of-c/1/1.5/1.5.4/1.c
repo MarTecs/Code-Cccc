@@ -8,6 +8,11 @@ main() {
 	int c,nl,nw,nc,state;
 	state = OUT;
 	nl = nw = nc = 0;
+	
+	//nl 行数
+	//nc 字符数 
+	//nw 单词数目 
+	
 	while( (c=getchar()) != EOF ) {
 		++nc;
 		if(c == '\n')
@@ -15,7 +20,7 @@ main() {
 		if(c == ' ' || c == '\n' || c == '\t')
 			state = OUT;
 		else if (state == OUT) {
-			state = IN;
+			state = IN; 
 			++nw;
 		} 
 	}
