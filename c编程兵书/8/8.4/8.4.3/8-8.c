@@ -11,7 +11,6 @@ int main() {
 	
 	for ( i = 0; i < 5; i++ ){
 		printf("*p++=%d\n", *p++);
-		
 	}
 	
 	return 0;
