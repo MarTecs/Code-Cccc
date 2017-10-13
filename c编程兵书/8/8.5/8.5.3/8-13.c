@@ -9,6 +9,8 @@ int main() {
 		*p++ = i;
 	}
 	
+	printf("数组的首地址为%d\n", a[0]);
+	printf("p的值为:%d\n", *p);
 	printf("二维数组的值为:");
 	
 	p = a[0];
