@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/CLanguageProgrammingMilitaryBook.dir/main.c.o  -o CLanguageProgrammingMilitaryBook 

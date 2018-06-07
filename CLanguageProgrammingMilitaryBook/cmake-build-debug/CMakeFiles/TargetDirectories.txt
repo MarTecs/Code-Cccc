@@ -1,0 +1,3 @@
+/home/sivan/gitspace/Code-Cccc/CLanguageProgrammingMilitaryBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sivan/gitspace/Code-Cccc/CLanguageProgrammingMilitaryBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sivan/gitspace/Code-Cccc/CLanguageProgrammingMilitaryBook/cmake-build-debug/CMakeFiles/CLanguageProgrammingMilitaryBook.dir
